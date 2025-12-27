@@ -11,9 +11,30 @@ To write a Python program that creates a **Student** class with a **default cons
 5. **Execute the Program**: Instantiate the `Student` class and call the `show` method.
 
 ## 🧾 Program
+```
+name = input("Enter student's name: ")
 
-Add code here
+
+class Student:
+    def __init__(self):
+        self.a = name  # Assign user input to instance variable
+
+    def show(self):
+        print("This is non-parameterized constructor")
+        print("Welcome", self.a)
+
+s = Student()
+s.show()
+```
 
 ## Output
+```
+Enter student's name: Ananya
+This is non-parameterized constructor
+Welcome Ananya
+```
+
 
 ## Result
+thus the program is verified
+
